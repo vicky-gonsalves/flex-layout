@@ -18,19 +18,19 @@ import {
 import {MEDIA_MONITOR_PROVIDER} from './media-query/media-monitor-provider';
 import {OBSERVABLE_MEDIA_PROVIDER} from './media-query/observable-media-provider';
 
-import {FlexDirective} from './api/flexbox/flex';
-import {LayoutDirective} from './api/flexbox/layout';
-import {FlexAlignDirective} from './api/flexbox/flex-align';
-import {FlexFillDirective} from './api/flexbox/flex-fill';
-import {FlexOffsetDirective} from './api/flexbox/flex-offset';
-import {FlexOrderDirective} from './api/flexbox/flex-order';
-import {LayoutAlignDirective} from './api/flexbox/layout-align';
-import {LayoutGapDirective} from './api/flexbox/layout-gap';
+import {FlexDirective} from './api/flexbox/flex/flex';
+import {LayoutDirective} from './api/flexbox/layout/layout';
+import {FlexAlignDirective} from './api/flexbox/flex-align/flex-align';
+import {FlexFillDirective} from './api/flexbox/flex-fill/flex-fill';
+import {FlexOffsetDirective} from './api/flexbox/flex-offset/flex-offset';
+import {FlexOrderDirective} from './api/flexbox/flex-order/flex-order';
+import {LayoutAlignDirective} from './api/flexbox/layout-align/layout-align';
+import {LayoutGapDirective} from './api/flexbox/layout-gap/layout-gap';
 
-import {ShowHideDirective} from './api/ext/show-hide';
-import {ClassDirective} from './api/ext/class';
-import {StyleDirective} from './api/ext/style';
-import {ImgSrcDirective} from './api/ext/img-src';
+import {ShowHideDirective} from './api/ext/show-hide/show-hide';
+import {ClassDirective} from './api/ext/class/class';
+import {StyleDirective} from './api/ext/style/style';
+import {ImgSrcDirective} from './api/ext/img-src/img-src';
 
 /**
  * Since the equivalent results are easily achieved with a css class attached to each

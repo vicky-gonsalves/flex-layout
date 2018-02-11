@@ -5,7 +5,7 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import {BreakPoint} from '../break-point';
+import {BreakPoint} from './break-point';
 
 export const RESPONSIVE_ALIASES = [
   'xs', 'gt-xs', 'sm', 'gt-sm', 'md', 'gt-md', 'lg', 'gt-lg', 'xl'

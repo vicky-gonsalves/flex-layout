@@ -8,8 +8,8 @@
 import {Inject, Injectable, NgZone, PLATFORM_ID, RendererFactory2} from '@angular/core';
 import {DOCUMENT} from '@angular/common';
 
-import {MatchMedia} from '../match-media';
-import {BreakPointRegistry} from '../breakpoints/break-point-registry';
+import {MatchMedia} from '../media/match-media/match-media';
+import {BreakPointRegistry} from '../breakpoints/registry/break-point-registry';
 
 /**
  * MockMatchMedia mocks calls to the Window API matchMedia with a build of a simulated

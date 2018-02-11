@@ -6,7 +6,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-import {BreakPoint} from '../break-point';
+import {BreakPoint} from './break-point';
 
 /* tslint:disable */
 const HANDSET_PORTRAIT  = '(orientations: portrait) and (max-width: 599px)';

@@ -8,14 +8,14 @@
 
 import {TestBed, inject, async} from '@angular/core/testing';
 
-import {BreakPoint} from '../break-point';
+import {BreakPoint} from './break-point';
 import {DEFAULT_BREAKPOINTS} from './break-points';
 import {ORIENTATION_BREAKPOINTS} from './orientation-break-points';
-import {BREAKPOINTS} from '../break-points-token';
+import {BREAKPOINTS} from '../providers/break-points-token';
 import {
   DEFAULT_BREAKPOINTS_PROVIDER,
   CUSTOM_BREAKPOINTS_PROVIDER_FACTORY
-} from '../break-points-provider';
+} from '../providers/break-points-provider';
 
 describe('break-point-provider', () => {
   let breakPoints: BreakPoint[];
