@@ -7,9 +7,8 @@
  */
 import {Inject, Injectable, NgZone, PLATFORM_ID} from '@angular/core';
 import {DOCUMENT, isPlatformBrowser} from '@angular/common';
-import {BehaviorSubject} from 'rxjs/BehaviorSubject';
-import {Observable} from 'rxjs/Observable';
-import {filter} from 'rxjs/operators/filter';
+import {Observable, BehaviorSubject} from 'rxjs';
+import {filter} from 'rxjs/operators';
 
 import {MediaChange} from '../media-change';
 

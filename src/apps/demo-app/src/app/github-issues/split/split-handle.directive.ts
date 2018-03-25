@@ -1,10 +1,8 @@
 import {Directive, ElementRef, Inject, Output} from '@angular/core';
 import {DOCUMENT} from '@angular/common';
-import {switchMap} from 'rxjs/operators/switchMap';
-import {takeUntil} from 'rxjs/operators/takeUntil';
-import {map} from 'rxjs/operators/map';
-import {fromEvent} from 'rxjs/observable/fromEvent';
-import {Observable} from 'rxjs/Observable';
+import {switchMap, takeUntil, map} from 'rxjs/operators';
+import {Observable} from 'rxjs/observable';
+import {fromEvent} from 'rxjs';
 
 @Directive({
   selector: '[ngxSplitHandle]',

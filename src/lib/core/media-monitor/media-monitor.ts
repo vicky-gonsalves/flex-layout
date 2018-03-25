@@ -6,9 +6,8 @@
  * found in the LICENSE file at https://angular.io/license
  */
 import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs/Observable';
-import {filter} from 'rxjs/operators/filter';
-import {map} from 'rxjs/operators/map';
+import {Observable} from 'rxjs';
+import {filter, map} from 'rxjs/operators';
 
 import {BreakPoint} from '../breakpoints/break-point';
 import {BreakPointRegistry} from '../breakpoints/break-point-registry';

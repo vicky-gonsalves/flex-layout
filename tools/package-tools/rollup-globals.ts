@@ -45,23 +45,6 @@ export const rollupGlobals = {
   // Include secondary entry-points of the cdk and material packages
    ...rollupFlexLayoutEntryPoints,
 
-  'rxjs/BehaviorSubject': 'Rx',
-  'rxjs/Observable': 'Rx',
-  'rxjs/Subject': 'Rx',
-  'rxjs/Subscription': 'Rx',
-  'rxjs/Observer': 'Rx',
-  'rxjs/Subscriber': 'Rx',
-  'rxjs/Scheduler': 'Rx',
-  'rxjs/ReplaySubject': 'Rx',
-
-  'rxjs/observable/combineLatest': 'Rx.Observable',
-  'rxjs/observable/forkJoin': 'Rx.Observable',
-  'rxjs/observable/fromEvent': 'Rx.Observable',
-  'rxjs/observable/merge': 'Rx.Observable',
-  'rxjs/observable/of': 'Rx.Observable',
-  'rxjs/observable/throw': 'Rx.Observable',
-  'rxjs/observable/defer': 'Rx.Observable',
-
-  'rxjs/operators/filter': 'Rx.operators',
-  'rxjs/operators/map': 'Rx.operators',
+  'rxjs': 'Rx',
+  'rxjs/operators': 'Rx.operators',
 };
