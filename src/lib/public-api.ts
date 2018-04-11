@@ -13,9 +13,10 @@
  */
 export * from './version';
 
+// Flex-Layout Module
+export * from './module';
+
 export * from '@angular/flex-layout/core';
 export * from '@angular/flex-layout/extended';
 export * from '@angular/flex-layout/flex';
 
-// Flex-Layout Module
-export * from './module';

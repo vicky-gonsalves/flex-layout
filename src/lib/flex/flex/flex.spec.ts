@@ -19,7 +19,7 @@ import {
   StyleUtils,
 } from '@angular/flex-layout/core';
 
-import {FlexLayoutModule} from '../../module';
+import {FlexModule} from '../module';
 import {FlexDirective} from './flex';
 import {LayoutDirective} from '../layout/layout';
 import {customMatchers, expect} from '../../utils/testing/custom-matchers';
@@ -55,7 +55,7 @@ describe('flex directive', () => {
 
     // Configure testbed to prepare services
     TestBed.configureTestingModule({
-      imports: [CommonModule, FlexLayoutModule],
+      imports: [CommonModule, FlexModule],
       declarations: [TestFlexComponent, TestQueryWithFlexComponent],
       providers: [
         MockMatchMediaProvider,
@@ -692,7 +692,7 @@ describe('flex directive', () => {
 
       // Configure testbed to prepare services
       TestBed.configureTestingModule({
-        imports: [CommonModule, FlexLayoutModule],
+        imports: [CommonModule, FlexModule],
         declarations: [TestFlexComponent, TestQueryWithFlexComponent],
         providers: [
           MockMatchMediaProvider,
@@ -732,7 +732,7 @@ describe('flex directive', () => {
 
       // Configure testbed to prepare services
       TestBed.configureTestingModule({
-        imports: [CommonModule, FlexLayoutModule],
+        imports: [CommonModule, FlexModule],
         declarations: [TestFlexComponent, TestQueryWithFlexComponent],
         providers: [
           MockMatchMediaProvider,
